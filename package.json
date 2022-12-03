@@ -1,14 +1,9 @@
 {
   "name": "@acos/swagger-markdown",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create markdown API documentation from swagger file",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
-    "test": "npm run test:app && npm run test:lint && npm run test:markdown",
-    "test:app": "jest",
-    "test:watch": "jest --watch",
-    "test:lint": "eslint . --ignore-pattern 'src/**/*.js' --ignore-pattern 'tests/**/*.spec.js' --ignore-pattern 'scripts/**/*.js'",
-    "test:markdown": "markdownlint ./examples/*.md -c .markdownlint.json",
     "build": "tsc",
     "build:watch": "tsc -w",
     "prepublishOnly": "npm run build",

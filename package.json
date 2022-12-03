@@ -1,6 +1,6 @@
 {
-  "name": "swagger-markdown",
-  "version": "2.0.0-beta.1",
+  "name": "@acos/swagger-markdown",
+  "version": "1.0.0",
   "description": "Create markdown API documentation from swagger file",
   "main": "index.js",
   "scripts": {
@@ -92,7 +92,6 @@
   },
   "dependencies": {
     "@apidevtools/swagger-parser": "^10.1.0",
-    "argparse": "2.0.1",
     "markdownlint": "^0.25.1",
     "markdownlint-rule-helpers": "^0.16.0",
     "openapi-types": "^11.0.1"
